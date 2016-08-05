@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Books</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+</head>
+<body>
+<div class="container" id="hello">
+    <div class="row">
+        <h1>{{ msg }}</h1>
+        <input class="form-control" type="text" v-model="msg">
+    </div>
+    <div class="row">
+        <h1>My list</h1>
+        <ul>
+            <li v-for="people in peoples">
+                {{ people.name }}
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="node_modules/vue/dist/vue.js"></script>
+<script src="node_modules/vue-resource/dist/vue-resource.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

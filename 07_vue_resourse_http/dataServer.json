@@ -1,0 +1,38 @@
+[
+  {
+    "id":1,
+    "title":"Design Patterns",
+    "value":37.88,
+    "description":"Elements of Reusable Object-Oriented Software"
+  },
+  {
+    "id":2,
+    "title":"Clean Code",
+    "value":32.56,
+    "description":"A Handbook of Agile Software Craftsmanship"
+  },
+  {
+    "id":3,
+    "title":"Refactoring",
+    "value":45.42,
+    "description":"Improving the Design of Existing Code"
+  },
+  {
+    "id":4,
+    "title":"Service Design Patterns",
+    "value":38.65,
+    "description":"Fundamental Design Solutions for SOAP/WSDL and RESTful Web Services"
+  },
+  {
+    "id":5,
+    "title":"Building Microservices",
+    "value":42.34,
+    "description":"Distributed systems have become more fine-grained in the past 10 years"
+  },
+  {
+    "id":6,
+    "title":"Docker: Up & Running",
+    "value":21.62,
+    "description":"Docker is quickly changing the way that organizations are deploying software at scale"
+  }
+]
